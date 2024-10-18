@@ -7,7 +7,7 @@ func main() {
 
 	fmt.Println("2 == 2 =>", 2 == 2)
 
-	fmt.Println("2 * -2 =>", 2 * -2)
+	fmt.Println("2 * -2 =>", 2*-2)
 
 	fmt.Println("!!true =>", !!true)
 
@@ -16,7 +16,7 @@ func main() {
 	fmt.Println("2*-1 !!= -2 =>", 2*-1 != -2)
 
 	var x int = -2
-	x*=-2
+	x *= -2
 	fmt.Println("x=>", x)
 
 	var y int = 2
@@ -30,5 +30,5 @@ func main() {
 	fmt.Println("5.0/2 =>", 5.0/2)
 	fmt.Println("5/2.0 =>", 5/2.0)
 
-	fmt.Println("true&&false||true&&2==2 =>", true&&false||true&&2==2)
+	fmt.Println("true&&false||true&&2==2 =>", true && false || true && 2 == 2)
 }
