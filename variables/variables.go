@@ -1,8 +1,8 @@
 package main
 
 import (
-  "fmt"
-  "reflect"
+	"fmt"
+	"reflect"
 )
 
 func main() {
@@ -21,4 +21,8 @@ func main() {
   var integerTwo int
   fmt.Println(integerTwo)
   fmt.Println(reflect.TypeOf(integerTwo))
+
+  b:= "hello world"
+  // b = 1
+  println(b)
 }

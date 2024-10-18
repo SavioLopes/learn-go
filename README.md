@@ -5,3 +5,5 @@
 - values
 - web-server
 - functions
+- loop
+- channel
